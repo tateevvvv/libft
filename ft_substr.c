@@ -6,7 +6,7 @@
 /*   By: tasargsy <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/30 19:57:11 by tasargsy          #+#    #+#             */
-/*   Updated: 2025/02/08 16:54:52 by tasargsy         ###   ########.fr       */
+/*   Updated: 2025/02/12 19:18:38 by tasargsy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,6 +38,6 @@ char	*ft_substr(const char *s, unsigned int start, size_t len)
 
 // int main(void){
 // 	char *s;
-// 	s = "es qo mery ay hambal";
+// 	s = "textanman ban";
 // 	printf("%s", ft_substr(s, 3, 7));
 // }

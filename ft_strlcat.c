@@ -6,7 +6,7 @@
 /*   By: tasargsy <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/24 18:25:02 by tasargsy          #+#    #+#             */
-/*   Updated: 2025/02/12 18:39:26 by tasargsy         ###   ########.fr       */
+/*   Updated: 2025/02/12 19:17:35 by tasargsy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,7 @@ size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 
 // int main(void){
 // 	char src[7] = "barigun";
-// 	char dst[4] = " xuy";
+// 	char dst[4] = "jox";
 // 	ft_strlcat(dst, src, 100);
 // 	printf("%s", dst);
 // 	return 0;

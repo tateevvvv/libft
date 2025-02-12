@@ -6,7 +6,7 @@
 /*   By: tasargsy <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/28 15:43:51 by tasargsy          #+#    #+#             */
-/*   Updated: 2025/02/05 20:44:39 by tasargsy         ###   ########.fr       */
+/*   Updated: 2025/02/12 19:14:34 by tasargsy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,7 +41,7 @@ int	ft_atoi(const char *str)
 
 // int main(void)
 // {
-// 	char xuy[] = "-2345678";
-// 	int drugoyxuy = ft_atoi(xuy);
-// 	printf("%d", drugoyxuy);
+// 	char chrrr[] = "-2345678";
+// 	int drug = ft_atoi(chrrr);
+// 	printf("%d", drug);
 // }

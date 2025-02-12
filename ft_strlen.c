@@ -6,7 +6,7 @@
 /*   By: tasargsy <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/18 19:46:31 by tatev             #+#    #+#             */
-/*   Updated: 2025/02/09 20:46:18 by tasargsy         ###   ########.fr       */
+/*   Updated: 2025/02/12 19:17:51 by tasargsy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,3 @@ size_t	ft_strlen(const char *str)
 		i++;
 	return (i);
 }
-
-// int main(void){
-// 	return (0);
-// }

@@ -6,7 +6,7 @@
 /*   By: tasargsy <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/30 18:58:32 by tasargsy          #+#    #+#             */
-/*   Updated: 2025/02/12 18:04:58 by tasargsy         ###   ########.fr       */
+/*   Updated: 2025/02/12 19:16:56 by tasargsy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,6 +34,6 @@ char	*ft_strdup(const char *s1)
 
 // int main(void){
 // 	char *s;
-// 	s = "xuyny ta eshyo";
+// 	s = "quns tanuma";
 // 	printf("%s", ft_strdup(s));
 // }

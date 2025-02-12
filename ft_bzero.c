@@ -6,7 +6,7 @@
 /*   By: tasargsy <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/24 18:25:25 by tasargsy          #+#    #+#             */
-/*   Updated: 2025/01/30 18:57:38 by tasargsy         ###   ########.fr       */
+/*   Updated: 2025/02/12 19:14:50 by tasargsy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ void	*ft_bzero(void *s, size_t n)
 
 /*int main(void) {
 \
-	char str[] = "Hello, World!";
+	char str[] = "Hello jox jan";
     ft_bzero(str, 6);
     printf("%s\n", str);
     return (0);

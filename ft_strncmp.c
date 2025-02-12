@@ -6,7 +6,7 @@
 /*   By: tasargsy <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/25 18:27:08 by tasargsy          #+#    #+#             */
-/*   Updated: 2025/01/25 19:03:29 by tasargsy         ###   ########.fr       */
+/*   Updated: 2025/02/12 19:18:04 by tasargsy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,11 +25,3 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 	}
 	return (0);
 }
-
-// int main() {
-//     const char *str1 = "world!";
-//     const char *str2 = "Hello, everyone!";   
-//     int result = ft_strncmp(str1, str2, 7);   
-// 	printf("%d", result);
-//     return (0);
-// }
