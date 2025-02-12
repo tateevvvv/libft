@@ -6,7 +6,7 @@
 /*   By: tasargsy <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/24 20:21:11 by tasargsy          #+#    #+#             */
-/*   Updated: 2025/02/08 16:34:11 by tasargsy         ###   ########.fr       */
+/*   Updated: 2025/02/12 18:41:12 by tasargsy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,17 +14,14 @@
 
 char	*ft_strchr(const char *s, int c)
 {
-	int	i;
-
-	i = 0;
-	while (s[i] != '\0')
+	while (*s)
 	{
-		if (s[i] == c)
-			return ((char *)&s[i]);
-		i++;
+		if (*s == (const char)c)
+			return ((char *)s);
+		s++;
 	}
-	if (s[i] == c)
-		return ((char *)&s[i]);
+	if (*s == (const char)c)
+		return ((char *)s);
 	return (NULL);
 }
 
