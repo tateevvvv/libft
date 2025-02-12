@@ -1,39 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strdup.c                                        :+:      :+:    :+:   */
+/*   ft_lstsize_bonus.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: tasargsy <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/01/30 18:58:32 by tasargsy          #+#    #+#             */
-/*   Updated: 2025/02/12 17:25:17 by tasargsy         ###   ########.fr       */
+/*   Created: 2025/02/12 16:22:04 by tasargsy          #+#    #+#             */
+/*   Updated: 2025/02/12 16:22:34 by tasargsy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strdup(const char *s1)
+int	ft_lstsize(t_list *lst)
 {
-	char	*arr;
-	size_t	i;
-	size_t	size;
+	int		count;
 
-	size = ft_strlen(s1);
-	i = 0;
-	arr = (char *)malloc((sizeof (char)) * size + 1);
-	if (!arr)
-		return (NULL);
-	while (i < size)
+	count = 0;
+	while (lst)
 	{
-		arr[i] = s1[i];
-		i++;
+		count++;
+		lst = lst->next;
 	}
-	arr[i] = '\0';
-	return (arr);
+	return (count);
 }
-
-// int main(void){
-// 	char *s;
-// 	s = "xuyny ta eshyo";
-// 	printf("%s", ft_strdup(s));
-// }

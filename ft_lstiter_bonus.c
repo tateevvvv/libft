@@ -1,39 +1,22 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strdup.c                                        :+:      :+:    :+:   */
+/*   ft_lstiter_bonus.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: tasargsy <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/01/30 18:58:32 by tasargsy          #+#    #+#             */
-/*   Updated: 2025/02/12 17:25:17 by tasargsy         ###   ########.fr       */
+/*   Created: 2025/02/12 16:42:58 by tasargsy          #+#    #+#             */
+/*   Updated: 2025/02/12 16:43:15 by tasargsy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strdup(const char *s1)
+void	ft_lstiter(t_list *lst, void (*f)(void *))
 {
-	char	*arr;
-	size_t	i;
-	size_t	size;
-
-	size = ft_strlen(s1);
-	i = 0;
-	arr = (char *)malloc((sizeof (char)) * size + 1);
-	if (!arr)
-		return (NULL);
-	while (i < size)
+	while (lst)
 	{
-		arr[i] = s1[i];
-		i++;
+		f(lst->content);
+		lst = lst->next;
 	}
-	arr[i] = '\0';
-	return (arr);
 }
-
-// int main(void){
-// 	char *s;
-// 	s = "xuyny ta eshyo";
-// 	printf("%s", ft_strdup(s));
-// }

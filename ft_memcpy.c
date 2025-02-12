@@ -6,7 +6,7 @@
 /*   By: tasargsy <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/22 17:19:11 by tatev             #+#    #+#             */
-/*   Updated: 2025/01/24 18:26:44 by tasargsy         ###   ########.fr       */
+/*   Updated: 2025/02/08 16:45:13 by tasargsy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ void	*ft_memcpy(void *dst, const void *src, size_t n)
 	unsigned char	*tmpdst;
 
 	if (dst == NULL && src == NULL)
-		return (dst);
+		return (NULL);
 	tmpdst = (unsigned char *)dst;
 	tmpsrc = (unsigned char *)src;
 	while (n > 0)
