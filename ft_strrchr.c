@@ -6,7 +6,7 @@
 /*   By: tasargsy <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/25 02:27:24 by tasargsy          #+#    #+#             */
-/*   Updated: 2025/02/08 16:59:28 by tasargsy         ###   ########.fr       */
+/*   Updated: 2025/02/12 18:26:33 by tasargsy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,10 +27,3 @@ char	*ft_strrchr(const char *s, int c)
 		return ((char *)s);
 	return (res);
 }
-
-// int main(void){
-// 	char esim[] = "asdfghdj";
-// 	int c = 'd';
-// 	printf("%s", ft_strrchr(esim, c));
-// 	return (0);
-// }
